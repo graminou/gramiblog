@@ -3,7 +3,7 @@ Un script Python pour créer et gérer mon blog perso
 
 ##Utilisation
 - Chaque article/page est un fichier json stocké dans contenu/ 
-- lancer la commande : $python generateur.py
+- lancer la commande : ```$python generateur.py```
 - le site complet est stocké dans out/
 - il suffit alors de transférer les fichiers sur votre hébergement (automatisation prévue)
 
