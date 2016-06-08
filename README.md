@@ -1,3 +1,5 @@
+#*Attention : en cours de construction - le générateur ne fonctionne pas encore*
+
 # gramiblog
 Un script Python pour créer et gérer mon blog perso
 
