@@ -1,0 +1,10 @@
+{
+	"title": "Construire un générateur de site statique - Part 1",
+	"slug": "construire-un-generateur-de-site-statique-part-1",
+	"menu": {"1":"Python"},
+	"date": "2016-05-17",
+	"author": "Jean-Marc LEGRAND - DEV & d'Adam",
+	"tags": "script, générateur, python, site statique, html, css",
+	"abstract": "La première partie de mon tuto",
+	"body": "<h1>Quel cahier des charges ?</h1><p>C'est la première partie de mon super tuto.</p>"
+}

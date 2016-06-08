@@ -1,0 +1,10 @@
+{
+	"title": "Extraire des parties d'un conducteur",
+	"slug": "extraire-des-parties-d-un-conducteur",
+	"menu": {"1":"Lilypond"},
+	"date": "2016-05-17",
+	"author": "Jean-Marc LEGRAND - Editions IN NOMINE",
+	"tags": "lilypond, conducteur, score, parts, parties",
+	"abstract": "Ce n'est pas toujours évident d'extraire des parties sans tout réécire. Voyons comment faire simple.",
+	"body": "<h1>Comment faire simple ?</h1><p>Un bon petit tuto pour extraire simplement des parties d'un condcuteur sans tout recoder...</p>"
+}
