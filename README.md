@@ -14,6 +14,7 @@ Un script Python pour créer et gérer mon blog perso
 - Python 3.4
 - aucune bibliothèque extérieure : ce générateur est *battery included*
 - pas de framework css, mais du responsive quand-même (peut être modifié dans les settings)
+
 *TODO List*
 - améliorer la rédaction des corps d'articles
 - créer un modèle spécifique aux pages statiques
