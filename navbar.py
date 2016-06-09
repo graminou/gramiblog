@@ -4,13 +4,13 @@ def menuBase(liste):
     Exemples :
     >>> liste = ['Python, Scripting', 'Python, Django', 'Lilypond', 'Culture, Livres, Romans', 'Culture, Livres, Romans', 'Culture, Livres, Policiers', 'Culture, Films, Action', 'Python, Scripting', 'Humeurs, Politique, Loi Travail, Nuit Debout']
     >>>menuBase(liste)
-    <ul><li>Culture</li><li>Humeurs</li><li>Lilypond</li><li>Python</li></ul>
+    <ul class="inline"><li>Culture</li><li>Humeurs</li><li>Lilypond</li><li>Python</li></ul>
     >>>liste = []
     >>>menuBase(liste)
     <ul><li></li></ul>
     '''
     m=sorted(set([e.split(',')[0] for e in liste]))
-    return ('<ul><li>'+str.join('</li><li>', m)+'</li></ul>', m)
+    return ('<ul class="inline"><li>'+str.join('</li><li>', m)+'</li></ul>', m)
 
 
 def deepness(liste):
@@ -80,7 +80,7 @@ def barreNavigation(liste):
     'Culture, Films, Action, Navets', 'Culture, Livres, Romans, Culte'
     ]
     >>>barreNavigation(menus)
-    <ul>
+    <ul class="inline">
       <li>Culture
         <ul>
           <li>Films
@@ -120,15 +120,15 @@ def barreNavigation(liste):
       </li>
     </ul>
     '''
-    n=deepness(menus)
-    mb = menuBase(menus)
+    n=deepness(liste)
+    mb = menuBase(liste)
 
     navbar = mb[0]
     done = mb[1]
 
     for i in range(n+1):
         for mot in done:
-            m = menuChild(mot, menus)
+            m = menuChild(mot, liste)
             navbar = navbar.partition(mot)[0] + navbar.partition(mot)[1] + m[0] + navbar.partition(mot)[2]
             for elt in m[1]:
                 if elt not in done:
