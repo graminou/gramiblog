@@ -1,6 +1,6 @@
 #*Attention : en cours de codage - le générateur ne fonctionne pas encore*
 
-# gramiblog
+# GRAMIBLOG
 Un script Python pour créer et gérer mon blog perso
 
 ##Utilisation
@@ -10,12 +10,12 @@ Un script Python pour créer et gérer mon blog perso
 - il suffit alors de transférer les fichiers sur votre hébergement (automatisation prévue)
 
 ##Cahier des charges
-#*Ce qui est fait :*
+###*Ce qui est fait :*
 - Python 3.4
 - aucune bibliothèque extérieure : ce générateur est Battery included
 - pas de framework css, mais du responsive quand-même (peut être modifié dans les settings)
 
-#*TODO List*
+###*TODO List*
 
 ##Fonctionnement
 ###Structure des .json
