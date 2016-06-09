@@ -16,9 +16,9 @@ Un script Python pour créer et gérer mon blog perso
 - pas de framework css, mais du responsive quand-même (peut être modifié dans les settings)
 
 *TODO List*
-- améliorer la rédaction des corps d'articles
-- créer un modèle spécifique aux pages statiques
-- simplifier le template pour pouvoir mieux l'administrer
+- *améliorer la rédaction des corps d'articles*
+- *créer un modèle spécifique aux pages statiques*
+- *simplifier le template pour pouvoir mieux l'administrer*
 
 ###Fonctionnement
 *Structure des .json*
