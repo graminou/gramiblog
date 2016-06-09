@@ -1,24 +1,26 @@
-#*Attention : en cours de codage - le générateur ne fonctionne pas encore*
+#*Attention : en cours de codage*
+#*le générateur ne fonctionne pas encore*
 
-# GRAMIBLOG
+## GRAMIBLOG
 Un script Python pour créer et gérer mon blog perso
 
-##Utilisation
+###Utilisation
 - chaque article/page est un fichier json stocké dans contenu/ 
 - lancer la commande : ```$python generateur.py```
 - le site complet est stocké dans out/
 - il suffit alors de transférer les fichiers sur votre hébergement (automatisation prévue)
 
-##Cahier des charges
-###*Ce qui est fait :*
+###Cahier des charges
 - Python 3.4
 - aucune bibliothèque extérieure : ce générateur est Battery included
 - pas de framework css, mais du responsive quand-même (peut être modifié dans les settings)
+*TODO List*
+- améliorer la rédaction des corps d'articles
+- créer un modèle spécifique aux pages statiques
+- simplifier le template pour pouvoir mieux l'administrer
 
-###*TODO List*
-
-##Fonctionnement
-###Structure des .json
+###Fonctionnement
+*Structure des .json*
 Les articles et pages du blog sont enregistrées comme fichiers .json de la structure suivante :
 ```{
 	"title": "Construire un générateur de site statique - Part 2",
@@ -31,8 +33,8 @@ Les articles et pages du blog sont enregistrées comme fichiers .json de la stru
 	"body": "<h1>Maintenant, on rendre dans le dur !</h1><p>C'est la seconde partie de mon super tuto.</p>"
 }
 ```
+*La barre de navigation*
+to be documented
 
-###La barre de navigation
-*to be documented*
-###Le template
-*to be documented*
+*Le template*
+to be documented
