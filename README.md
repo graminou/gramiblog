@@ -26,7 +26,7 @@ Un script Python pour créer et gérer mon blog perso
 
 Les articles et pages du blog sont enregistrées comme fichiers .json de la structure suivante :
 
-```{
+`{
 	"title": "Construire un générateur de site statique - Part 2",
 	"slug": "construire-un-generateur-de-site-statique-part-2",
 	"menu": "Python, Scripting",
@@ -36,7 +36,7 @@ Les articles et pages du blog sont enregistrées comme fichiers .json de la stru
 	"abstract": "La seconde parftie de mon tuto",
 	"body": "<h1>Maintenant, on rendre dans le dur !</h1><p>C'est la seconde partie de mon super tuto.</p>"
 }
-```
+`
 
 *La barre de navigation*
 
