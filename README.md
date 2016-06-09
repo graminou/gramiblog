@@ -25,6 +25,7 @@ Un script Python pour créer et gérer mon blog perso
 *Structure des .json*
 
 Les articles et pages du blog sont enregistrées comme fichiers .json de la structure suivante :
+
 ```{
 	"title": "Construire un générateur de site statique - Part 2",
 	"slug": "construire-un-generateur-de-site-statique-part-2",
